@@ -1,0 +1,3 @@
+SilverStripe\Control\Director:
+  rules:
+    'u2f//$Action': 'Firesphere\U2FAuth\Controllers\U2FController'

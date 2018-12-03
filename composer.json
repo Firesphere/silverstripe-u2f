@@ -1,0 +1,40 @@
+{
+  "name": "firesphere/u2f",
+  "description": "Enable authentication with a Yubikey",
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "silverstripe",
+    "Yubikey",
+    "authentication",
+    "module",
+    "security",
+    "U2F"
+  ],
+  "authors": [
+    {
+      "name": "Simon `Firesphere` Erkelens",
+      "email": "simonerkelens@silverstripe.com"
+    }
+  ],
+  "require": {
+    "silverstripe/recipe-cms": "~1.0",
+    "firesphere/bootstrapmfa": "1.0.x-dev",
+    "spomky-labs/u2f-php": "^1.0@dev"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "scriptfusion/phpunit-immediate-exception-printer": "^1",
+    "phpunit/phpunit": "^5.7"
+  },
+  "extra": {
+    "installer-name": "u2f-authenticator",
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/firesphere/silverstripe-u2f-authenticator/issues",
+    "source": "https://github.com/firesphere/silverstripe-u2f-authenticator"
+  }
+}
